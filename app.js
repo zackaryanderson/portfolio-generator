@@ -4,8 +4,6 @@ const { writeFile, copyFile } = require('./utils/generate-site.js');
 const generatePage = require('./src/page-template.js');
 
 
-// const pageHTML = generatePage(mockData);
-
 const promptUser = () => {
     return inquirer.prompt([
         {
